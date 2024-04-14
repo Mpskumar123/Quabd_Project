@@ -84,10 +84,10 @@ ul::-webkit-scrollbar {
 }
 
 li {
-  padding: 20px; /* Increase padding */
+  padding: 20px; 
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin: 20px; /* Increase margin */
+  margin: 20px; 
   display: flex;
   align-items: center;
 }
@@ -103,19 +103,16 @@ span {
   font-size: 25px;
 }
 
-/* Increase the size of the checkbox */
 input[type="checkbox"] {
   width: 24px;
   height: 24px;
 }
 
-/* Increase the size of the checked checkbox */
 input[type="checkbox"]:checked {
   width: 24px;
   height: 24px;
 }
 
-/* Media query for mobile */
 @media (max-width: 768px) {
   .logo {
     max-width: 100px;
